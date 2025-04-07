@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "./dist",      // Output directory for compiled JS files
+    "esModuleInterop": true, // Ensure compatibility with commonjs modules
+    "skipLibCheck": true     // Skip type checking of declaration files
+  },
+  "include": ["./**/*.ts"]
+}
+
